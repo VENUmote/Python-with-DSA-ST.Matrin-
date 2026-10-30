@@ -1,0 +1,19 @@
+. Python fundamentals (Days 1–10)
+No. Topics
+1 Introduction to Python, installation, IDE
+2 Variables and data types
+3 Keywords and identifiers
+4 Operators and expressions
+5 Type conversion
+6 Input and output
+7 Conditional statements (if, elif, else)
+8 Loops (for, while)
+9 Break, continue, pass
+10 Nested loops and pattern programming
+Practice programs:
+Prime number
+Palindrome number
+Armstrong number
+Fibonacci series
+Factorial
+Star patterns
