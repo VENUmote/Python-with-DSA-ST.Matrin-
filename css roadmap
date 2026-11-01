@@ -1,0 +1,158 @@
+1. CSS fundamentals (Days 1–4)
+Day	Topics
+1	Introduction to CSS, syntax, selectors
+2	Inline, Internal, External CSS
+3	Colors, backgrounds, units
+4	Text properties, fonts, Google Fonts
+
+
+Practice projects:
+- Personal introduction page
+- Stylish heading page
+- College information page
+2. CSS selectors and box model (Days 5–8)
+Topics:
+- Element selector
+- Class selector
+- ID selector
+- Universal selector
+- Group selector
+- Descendant selector
+- Child selector
+- Pseudo-classes
+- Pseudo-elements
+- Box model
+- Margin, padding, border
+- Width and height
+- Box-sizing
+
+
+Mini projects:
+1. Profile card
+2. Product card
+3. Student ID card
+4. College faculty profile page
+3. CSS layout techniques (Days 9–13)
+Learn these concepts carefully because they are important for real-world frontend development.
+Topic	What to learn
+Display	block, inline, inline-block, none
+Position	static, relative, absolute, fixed, sticky
+Flexbox	flex-direction, justify-content, align-items
+Grid	grid-template-columns, rows, gap
+Overflow	hidden, scroll, auto
+Z-index	Layer management
+
+
+Projects:
+- Navigation bar
+- Responsive image gallery
+- Dashboard layout
+- E-commerce product grid
+4. Advanced CSS (Days 14–18)
+Topics:
+- Transitions
+- Transform
+- Animations
+- Keyframes
+- Gradients
+- Box-shadow
+- Text-shadow
+- Border-radius
+- Filters
+- Clip-path
+- CSS variables
+- Custom properties
+
+
+Projects:
+- Animated login page
+- Loading animation
+- 3D profile card
+- Animated landing page
+5. Responsive web design (Days 19–22)
+Topics:
+- Responsive design principles
+- Media queries
+- Mobile-first approach
+- Fluid layouts
+- Relative units
+- Responsive images
+- Flexbox and Grid responsiveness
+- CSS breakpoints
+
+
+Projects:
+- Responsive portfolio
+- Responsive college website
+- Mobile-friendly dashboard
+6. Professional CSS (Days 23–25)
+Learn:
+- CSS architecture
+- BEM naming convention
+- Reusable components
+- CSS specificity
+- Inheritance
+- CSS debugging using DevTools
+- Browser compatibility
+- CSS optimization
+- CSS frameworks introduction (Bootstrap and Tailwind CSS)
+
+7. Practical project implementation roadmap
+These are the projects I recommend building in order.
+
+
+Project 1: Profile Card
+Beginner
+- Image and profile details
+- Background and borders
+- Hover effects
+- Social media links
+
+
+
+Project 2: Login & Signup Page
+Beginner
+- Input fields
+- Buttons
+- Form styling
+- CSS transitions
+
+
+
+Project 3: E-commerce Website
+Intermediate
+- Navigation bar
+- Product cards
+- CSS Grid
+- Flexbox
+- Responsive layout
+
+
+
+Project 4: Admin Dashboard
+Intermediate
+- Sidebar
+- Dashboard cards
+- Grid layout
+- Responsive design
+
+
+Project 5: Professional Portfolio
+Advanced
+- Animations
+- Responsive navigation
+- Projects section
+- Skills section
+- Contact section
+- Download resume
+
+
+
+8. Daily learning schedule
+If you spend 2–3 hours daily:
+Duration	Activity
+30 min	Theory
+30 min	CSS syntax and examples
+60 min	Hands-on coding
+30 min	Mini-project
+15 min	Revision and interview questions
