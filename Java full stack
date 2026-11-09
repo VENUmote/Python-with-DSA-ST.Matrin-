@@ -1,0 +1,249 @@
+Complete 90-day roadmap
+Days	Module	Topics
+1–10	Core Java	Variables, data types, loops, arrays, strings, methods
+11–20	Advanced Java	OOP, inheritance, polymorphism, collections, exceptions
+21–30	Frontend	HTML, CSS, JavaScript, Bootstrap
+31–38	Database	SQL, MySQL, joins, JDBC
+39–50	Spring Boot	Spring Core, Spring MVC, REST APIs
+51–58	Hibernate	JPA, Hibernate, Spring Data JPA
+59–65	React.js	Components, props, state, hooks, Axios
+66–72	Integration	React + Spring Boot + MySQL
+73–80	Advanced tools	Git, GitHub, Postman, JUnit, Spring Security
+81–90	Projects	Development, testing, deployment, interview preparation
+
+2. Tools students should learn
+
+
+IntelliJ IDEA
+
+Java, Spring Boot and debugging
+Download
+
+
+VS Code
+
+HTML, CSS, JavaScript and React
+Download
+
+MySQL Workbench
+
+Database design and SQL queries
+Download
+
+Postman
+
+REST API testing
+Download
+
+Git and GitHub
+
+Version control and project hosting
+Get started
+
+
+3. Teaching methodology
+For every training day, use this structure:
+Activity	Duration
+Concept explanation	30 min
+Live coding	45 min
+Student coding practice	60 min
+Interview questions	20 min
+Assignment and assessment	25 min
+Total	3 hours
+
+4. Projects students must complete
+
+Project 1: Student Management System
+Beginner
+- Add, update and delete students
+- Java + JDBC + MySQL
+
+Project 2: Employee Management System
+Intermediate
+- Spring Boot CRUD
+- REST API + MySQL
+
+Project 3: Online Quiz Application
+Intermediate
+- React frontend
+- Spring Boot backend
+- Results and scoring
+
+Project 4: E-commerce Application
+Advanced
+- Authentication
+- Products and cart
+- Orders and payments integration
+
+Project 5: Job Portal
+Capstone
+- Student and recruiter login
+- Job posting and applications
+- Admin dashboard
+
+
+
+step by step process 
+
+What to download and install.
+How to create a Java project.
+What each folder and file does.
+How to write Java and Spring Boot code.
+How to connect MySQL.
+How to build the frontend.
+How to connect frontend and backend.
+How to test, run and deploy the application.
+
+Verify installation
+After installing, open Windows Command Prompt.
+
+Click Start, type cmd, and press Enter.
+Type these commands one by one:
+Check Java
+java -version
+
+Check Java compiler
+javac -version
+
+Check Node.js
+node -v
+
+Check npm
+npm -v
+
+You should see version numbers. If Windows says a command is not recognized, we need to fix the installation or PATH configuration first.
+
+4. Create your first project in IntelliJ IDE
+plus.cs.aalto.fi
+Follow these steps:
+1. Open IntelliJ IDEA.
+2. Click New Project.
+3. Select Java.
+4. Enter project name: StudentManagementSystem.
+5. Select JDK 21.
+6. Select Maven as the build system.
+7. Select the location where you want to save your project.
+8. Click Create.
+
+Area	Purpose
+Project panel	Displays files and folders
+Editor	        Where you write code
+Run button	    Executes your program
+Debug button	  Helps find errors
+Terminal	      Executes commands
+Maven panel	    Manages dependencies
+Console	        Shows program output
+
+
+6. Write your first Java program
+Inside the src folder:
+1. Right-click src.
+2. Select New → Java Class.
+3. Enter Main.
+4. Write this code:
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to Java Full Stack!");
+
+        System.out.println("My First Project");
+
+    }
+}
+
+O/P:
+
+Welcome to Java Full Stack!
+My First Project
+
+Now create the actual Spring Boot project
+This is where we start building our real application.
+
+Important: The previous Java project was just for learning IntelliJ. Now we will create a separate Spring Boot project.
+
+Step 7.1 – Open Spring Initializr
+Go to:
+Spring Initializr – Create Spring Boot ProjectFill in the following details:
+Field	Select / Enter
+Project	      Maven
+Language	    Java
+Spring Boot	  Default stable version
+Group	        com.venu
+Artifact	    studentmanagement
+Name	        studentmanagement
+Package name	com.venu.studentmanagement
+Packaging	    Jar
+Java	        21
+
+Step 7.2 – Add dependencies
+Click Add Dependencies and select:
+Dependency	    Why do we need it?
+Spring Web	    Create REST APIs
+Spring Data JPA	Database operations
+MySQL Driver	  Connect MySQL
+Validation	  Validate student data
+Spring Boot DevTools	Faster development
+
+Step 7.3 – Generate project
+1. Click Generate.
+2. A ZIP file will download.
+3. Extract the ZIP file.
+4. Open IntelliJ IDEA.
+5. Click Open.
+6. Select the extracted studentmanagement folder.
+7. Click Trust Project if prompted.
+8. Wait for Maven to download dependencies.
+You have now created your Spring Boot backend.
+
+Spring Initializr generates the project structure and dependency configuration automatically.
+
+Understand your Spring Boot project structure
+Your project should look similar to this:
+ studentmanagement
+
+ .mvn
+ src
+
+ main
+ java
+
+ com.venu.studentmanagement
+ StudentmanagementApplication.java
+ resources
+ application.properties
+ test
+ pom.xml
+What does each folder mean?
+- src/main/java: Main Java source code.
+- src/main/resources: Configuration files.
+- src/test: Testing code.
+- pom.xml: Project dependencies and build configuration.
+- application.properties: Database and server configuration.
+
+
+9. Create packages for our application
+Inside com.venu.studentmanagement, create five packages.
+
+Right-click the package → New → Package.
+
+Create:
+com.venu.studentmanagement
+│
+├── controller
+├── service
+├── repository
+├── entity
+└── dto
+
+
+Understand their responsibilities:
+Package	Responsibility
+Controller	Receives user requests
+Service	Contains business logic
+Repository	Communicates with database
+Entity	Represents database tables
+DTO	Transfers data between layers
+
+This structure is called a layered architecture.
